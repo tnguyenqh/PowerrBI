@@ -1,0 +1,21 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 100'>
+
+  <!-- Color segments with rounded corners and 1px gaps -->
+  <rect x='10' y='58' width='89' height='4' rx='2' ry='2' fill='#4CAF50'/>
+  <rect x='100' y='58' width='99' height='4' rx='2' ry='2' fill='#FFA500'/>
+  <rect x='200' y='58' width='90' height='4' rx='2' ry='2' fill='#FF0000'/>
+  
+  <!-- Small vertical lines between gauge segments -->
+  <line x1='99.5' y1='52' x2='99.5' y2='68' stroke='#c3bebe' stroke-width='1'/>
+  <line x1='199.5' y1='52' x2='199.5' y2='68' stroke='#c3bebe' stroke-width='1'/>
+
+  <!-- Circle marker -->
+  <circle cx='50' cy='60' r='5' fill='#6a00ff'/>
+  
+  <!-- Text: 'expected claims' above the circle -->
+  <text x='50' y='50' font-family='Arial' font-size='8' fill='#000000' text-anchor='middle'>Expected</text>
+  
+  <!-- Labels -->
+  <text x='80' y='80' font-family='Arial' font-size='8' fill='#c3bebe'>Lower: $830</text>
+  <text x='180' y='80' font-family='Arial' font-size='8' fill='#c3bebe'>Upper:$930</text>
+</svg>
