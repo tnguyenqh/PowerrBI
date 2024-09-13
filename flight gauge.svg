@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
+  <!-- Color segments -->
+  <rect x="10" y="58" width="89" height="4" rx="2" ry="2" fill="#4CAF50"/>
+  <rect x="100" y="58" width="99" height="4" rx="2" ry="2" fill="#FFA500"/>
+  <rect x="200" y="58" width="90" height="4" rx="2" ry="2" fill="#FF0000"/>
+  
+  <!-- Marker - black fill with blue border -->
+  <circle cx="60" cy="60" r="7" fill="black" stroke="#2196F3" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="80" y="80" font-family="Arial" font-size="11" fill="#a39a9a">A$830</text>
+  <text x="180" y="80" font-family="Arial" font-size="11" fill="#a39a9a">A$930</text>
+  
+  <!-- Speech bubble - lowered by 3 pixels -->
+  <path d="M40,11 L80,11 Q90,11 90,18 L90,33 Q90,40 80,40 L65,40 L60,45 L55,40 L40,40 Q30,40 30,33 L30,18 Q30,11 40,11 Z" fill="#2196F3"/>
+  <text x="60" y="28" font-family="Arial" font-size="9" fill="white" text-anchor="middle">A$712 is low</text>
+</svg>
